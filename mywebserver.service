@@ -1,0 +1,13 @@
+# meta-mywebserver/recipes-example/mywebserver/mywebserver.service
+
+[Unit]
+Description=My Web Server
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 -m http.server 8080
+WorkingDirectory=/www/
+Restart=always
+
+[Install]
+WantedBy=default.target

@@ -52,7 +52,7 @@ Replace /dev/sdX with the actual device path for your SD card.
 Note: Ensure that the SD card is inserted before running the script.
 
 
-Note
+## Note
 
 - If the Yocto directory (yocto-kirkstone) already exists, the build_yocto_image.sh script continues from Step 8.
 - Dependencies and Yocto prerequisites must be installed before running the scripts.

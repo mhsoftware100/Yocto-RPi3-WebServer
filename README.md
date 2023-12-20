@@ -13,11 +13,11 @@ Make sure you have the necessary dependencies installed on your system:
 ## Step 1: Clone the Repository
 
 ```
-git clone https://github.com/yourusername/yocto-rpi3.git
-cd yocto-rpi3
+git clone https://github.com/mhsoftware100/Yocto-RPi3-WebServer.git
+cd Yocto-RPi3-WebServer
 ```
 
-Step 2: Build Yocto Image
+## Step 2: Build Yocto Image
 
 The build_yocto_image.sh script automates the Yocto image building process. It performs the following steps:
 
@@ -34,7 +34,7 @@ The build_yocto_image.sh script automates the Yocto image building process. It p
     ./build_yocto_image.sh
 ```
 
-Step 3: Write Yocto Image to SD Card
+## Step 3: Write Yocto Image to SD Card
 
 The write_image.sh script writes the Yocto image to the SD card. It performs the following steps:
 
